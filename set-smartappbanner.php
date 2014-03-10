@@ -3,7 +3,7 @@
 Plugin Name: WP-SmartAppBanner
 Plugin URI: http://christianoliff.com/wp-plugins/wp-smartappbanner/
 Description: Displays a Smart App Banner to your site to promote your iPhone/iPad app (iOS 6 required to see the Smart App Banner)
-Version: 1.1
+Version: 1.1.1
 Author: C.Oliff
 Author URI: http://christianoliff.com
 */
