@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP-SmartAppBanner
-Plugin URI: http://christianoliff.com/wp-plugins/wp-smartappbanner/
+Plugin URI: https://christianoliff.com/wp-plugins/wp-smartappbanner/
 Description: Displays a Smart App Banner to your site to promote your iPhone/iPad app (iOS 6 required to see the Smart App Banner)
-Version: 1.1.2
+Version: 1.1.4
 Author: C.Oliff
-Author URI: http://christianoliff.com
+Author URI: https://christianoliff.com
 */
 add_option('set_ios_app_value', 'nothing');
 add_action('wp_head', 'set_ios_app_do');
@@ -24,7 +24,7 @@ echo '<b>Settings Updated!</b>';
 }
 echo '<p><form name="set_ios_app" action="" method="post"></p>';
 echo '<p>iOS App ID: <input type="text" placeholder="e.g. 123456789" pattern="\d*" inputmode="numeric" minlength="9" name="ios_app_value" value="' . get_option('set_ios_app_value') . '" required /></p>';
-echo '<p><input type="submit" value="Save Changes" /></p>';
+echo '<p><input type="submit" value="Save Changes"></p>';
 echo '<p></form></p>';
 echo '</div>';
 }
